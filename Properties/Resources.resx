@@ -127,6 +127,12 @@
   <data name="No Signal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\No Signal3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DataBase wireless Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataBase wireless Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cant_Control_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cant_Control_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Exit icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,19 +145,16 @@
   <data name="No signal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\No signal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="curtinfrc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\curtinfrc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="no signal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\no signal2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Entity101Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Entity101Main.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DataBase wireless Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DataBase wireless Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="curtinfrc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curtinfrc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cant_Control_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cant_Control_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2lLleKJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2lLleKJ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
