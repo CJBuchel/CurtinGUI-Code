@@ -39,6 +39,11 @@ namespace GUI
                     Main ss = new Main();
                     ss.Show();
                 }
+                else if (textBox2.Text == "easteregg")
+                {
+                    easteregg ee = new easteregg();
+                    ee.Show();
+                }
                 else
                 {
                     MessageBox.Show("Password Is Incorrect");

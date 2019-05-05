@@ -9,20 +9,38 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AForge.Video;
 using MySql.Data.MySqlClient;
+using NetworkTables;
+using NetworkTables.Tables;
 
 namespace GUI
 {
+
     public partial class Main : Form
     {
-
+        MJPEGStream localhost;
+        MJPEGStream curtinvision;
         public Main()
         {
             InitializeComponent();
+
+            localhost = new MJPEGStream("http://localhost:1181/stream.mjpg");
+            localhost.NewFrame += localhost_NewFrame;
+
+            curtinvision = new MJPEGStream("http://curtinvision.local:1181/stream.mjpeg");
+            curtinvision.NewFrame += curtinvision_NewFrame;
         }
 
-        void entity101vision_NewFrame(object sender, NewFrameEventArgs eventArgs)
+
+        void localhost_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        {
+            Bitmap lcl = (Bitmap)eventArgs.Frame.Clone();
+            pictureBox2.Image = lcl;
+        }
+
+        void curtinvision_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
             Bitmap bmp = (Bitmap)eventArgs.Frame.Clone();
+            pictureBox2.Image = bmp;
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
@@ -87,6 +105,21 @@ namespace GUI
         {
             AddUser AU = new AddUser();
             AU.Show();
+        }
+
+        private void bunifuFlatButton7_Click(object sender, EventArgs e)
+        {
+            localhost.Start();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton8_Click(object sender, EventArgs e)
+        {
+            curtinvision.Start();
         }
     }
 }
