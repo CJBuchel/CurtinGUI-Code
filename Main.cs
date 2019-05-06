@@ -11,7 +11,6 @@ using AForge.Video;
 using MySql.Data.MySqlClient;
 using NetworkTables;
 using NetworkTables.Tables;
-
 namespace GUI
 {
 
