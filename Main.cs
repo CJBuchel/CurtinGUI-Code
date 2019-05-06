@@ -18,14 +18,19 @@ namespace GUI
     {
         MJPEGStream localhost;
         MJPEGStream curtinvision;
+
+        string RobotServertxt = "localhost";
+        string VisionServertxt = "curtinvision.local:1181";
+        string VisionLocalServertxt = "localhost:1181";
+
         public Main()
         {
             InitializeComponent();
 
-            localhost = new MJPEGStream("http://localhost:1181/stream.mjpg");
+            localhost = new MJPEGStream("http://" + VisionLocalServertxt + "/stream.mjpg");
             localhost.NewFrame += localhost_NewFrame;
 
-            curtinvision = new MJPEGStream("http://curtinvision.local:1181/stream.mjpeg");
+            curtinvision = new MJPEGStream("http://" + VisionServertxt + "/stream.mjpg");
             curtinvision.NewFrame += curtinvision_NewFrame;
         }
 
@@ -44,7 +49,7 @@ namespace GUI
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            AddData AD = new AddData();
+            EditData AD = new EditData();
             AD.Show();
         }
 
@@ -119,6 +124,16 @@ namespace GUI
         private void bunifuFlatButton8_Click(object sender, EventArgs e)
         {
             curtinvision.Start();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

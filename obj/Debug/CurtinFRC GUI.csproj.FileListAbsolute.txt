@@ -127,7 +127,6 @@ D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\MySQL.Data.EntityFrameworkC
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\MySql.Web.xml
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\CurtinFRC GUI.csprojAssemblyReference.cache
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.exe.config
-D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.AddData.resources
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.AddUser.resources
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.Login.resources
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.Main.resources
@@ -254,3 +253,4 @@ D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\nunit.engine.netstandard.dl
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\nunit.framework.dll
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\NUnit3.TestAdapter.dll
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.easteregg.resources
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.EditData.resources
