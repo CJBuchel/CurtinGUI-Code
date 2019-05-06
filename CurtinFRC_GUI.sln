@@ -5,6 +5,61 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurtinFRC GUI", "CurtinFRC GUI.csproj", "{A2C5DA69-E384-4BB3-A02A-C449D6397C23}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FRC.NetworkTables", "..\..\NetworkTables-master\src\FRC.NetworkTables\FRC.NetworkTables.csproj", "{3FDECC3A-A699-4DC3-BCBF-7190D04417F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FRC.NetworkTables.Core", "..\..\NetworkTables-master\src\FRC.NetworkTables.Core\FRC.NetworkTables.Core.csproj", "{650F2A5C-4835-47F0-8FB4-CE5129D01DFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FRC.NetworkTables.Core.DesktopLibraries", "..\..\NetworkTables-master\src\FRC.NetworkTables.Core.DesktopLibraries\FRC.NetworkTables.Core.DesktopLibraries.csproj", "{B66B9CF5-13FC-434B-8511-268BDECCED3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7051AE12-78C1-40FF-8EFF-4A99247CD11B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\NetworkTables-master\src\Shared\ConnectionInfo.cs = ..\..\NetworkTables-master\src\Shared\ConnectionInfo.cs
+		..\..\NetworkTables-master\src\Shared\Delegates.cs = ..\..\NetworkTables-master\src\Shared\Delegates.cs
+		..\..\NetworkTables-master\src\Shared\EntryInfo.cs = ..\..\NetworkTables-master\src\Shared\EntryInfo.cs
+		..\..\NetworkTables-master\src\Shared\Enumerations.cs = ..\..\NetworkTables-master\src\Shared\Enumerations.cs
+		..\..\NetworkTables-master\src\Shared\ListStream.cs = ..\..\NetworkTables-master\src\Shared\ListStream.cs
+		..\..\NetworkTables-master\src\Shared\NetworkTable.cs = ..\..\NetworkTables-master\src\Shared\NetworkTable.cs
+		..\..\NetworkTables-master\src\Shared\NtCore.cs = ..\..\NetworkTables-master\src\Shared\NtCore.cs
+		..\..\NetworkTables-master\src\Shared\NtIPAddress.cs = ..\..\NetworkTables-master\src\Shared\NtIPAddress.cs
+		..\..\NetworkTables-master\src\Shared\NtType.cs = ..\..\NetworkTables-master\src\Shared\NtType.cs
+		..\..\NetworkTables-master\src\Shared\RemoteProcedureCall.cs = ..\..\NetworkTables-master\src\Shared\RemoteProcedureCall.cs
+		..\..\NetworkTables-master\src\Shared\RpcStructs.cs = ..\..\NetworkTables-master\src\Shared\RpcStructs.cs
+		..\..\NetworkTables-master\src\Shared\StaticRemote.cs = ..\..\NetworkTables-master\src\Shared\StaticRemote.cs
+		..\..\NetworkTables-master\src\Shared\Value.cs = ..\..\NetworkTables-master\src\Shared\Value.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{18ADEBA8-A3D3-461F-9E9E-4912E65EFD0A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\NetworkTables-master\src\Shared\Exceptions\PersistentException.cs = ..\..\NetworkTables-master\src\Shared\Exceptions\PersistentException.cs
+		..\..\NetworkTables-master\src\Shared\Exceptions\TableKeyDifferentTypeException.cs = ..\..\NetworkTables-master\src\Shared\Exceptions\TableKeyDifferentTypeException.cs
+		..\..\NetworkTables-master\src\Shared\Exceptions\TableKeyNotDefinedException.cs = ..\..\NetworkTables-master\src\Shared\Exceptions\TableKeyNotDefinedException.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{A10B35FE-AF35-4504-AE80-5B8A375B3295}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\NetworkTables-master\src\Shared\Tables\IRemote.cs = ..\..\NetworkTables-master\src\Shared\Tables\IRemote.cs
+		..\..\NetworkTables-master\src\Shared\Tables\IRemoteConnectionListener.cs = ..\..\NetworkTables-master\src\Shared\Tables\IRemoteConnectionListener.cs
+		..\..\NetworkTables-master\src\Shared\Tables\ITable.cs = ..\..\NetworkTables-master\src\Shared\Tables\ITable.cs
+		..\..\NetworkTables-master\src\Shared\Tables\ITableListener.cs = ..\..\NetworkTables-master\src\Shared\Tables\ITableListener.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wire", "Wire", "{4D5F9E3D-3313-426D-96D3-5B8733F9BEAF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\NetworkTables-master\src\Shared\Wire\FastBitConverterBE.cs = ..\..\NetworkTables-master\src\Shared\Wire\FastBitConverterBE.cs
+		..\..\NetworkTables-master\src\Shared\Wire\FastBitConverterCache.cs = ..\..\NetworkTables-master\src\Shared\Wire\FastBitConverterCache.cs
+		..\..\NetworkTables-master\src\Shared\Wire\FastBitConverterLE.cs = ..\..\NetworkTables-master\src\Shared\Wire\FastBitConverterLE.cs
+		..\..\NetworkTables-master\src\Shared\Wire\IFastBitConverter.cs = ..\..\NetworkTables-master\src\Shared\Wire\IFastBitConverter.cs
+		..\..\NetworkTables-master\src\Shared\Wire\Leb128.cs = ..\..\NetworkTables-master\src\Shared\Wire\Leb128.cs
+		..\..\NetworkTables-master\src\Shared\Wire\WireDecoder.cs = ..\..\NetworkTables-master\src\Shared\Wire\WireDecoder.cs
+		..\..\NetworkTables-master\src\Shared\Wire\WireEncoder.cs = ..\..\NetworkTables-master\src\Shared\Wire\WireEncoder.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0AD3C04B-F4DB-4B12-B6B9-B587ECC89CB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkTables.Core.Test", "..\..\NetworkTables-master\test\NetworkTables.Core.Test\NetworkTables.Core.Test.csproj", "{202F9E7F-BCF0-4B87-B3DF-B7BDAC3110B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkTables.Test", "..\..\NetworkTables-master\test\NetworkTables.Test\NetworkTables.Test.csproj", "{EEE93840-FB24-43C8-99FA-DE38BF17893F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +70,36 @@ Global
 		{A2C5DA69-E384-4BB3-A02A-C449D6397C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2C5DA69-E384-4BB3-A02A-C449D6397C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2C5DA69-E384-4BB3-A02A-C449D6397C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDECC3A-A699-4DC3-BCBF-7190D04417F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDECC3A-A699-4DC3-BCBF-7190D04417F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDECC3A-A699-4DC3-BCBF-7190D04417F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDECC3A-A699-4DC3-BCBF-7190D04417F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650F2A5C-4835-47F0-8FB4-CE5129D01DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650F2A5C-4835-47F0-8FB4-CE5129D01DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650F2A5C-4835-47F0-8FB4-CE5129D01DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650F2A5C-4835-47F0-8FB4-CE5129D01DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66B9CF5-13FC-434B-8511-268BDECCED3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66B9CF5-13FC-434B-8511-268BDECCED3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66B9CF5-13FC-434B-8511-268BDECCED3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66B9CF5-13FC-434B-8511-268BDECCED3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202F9E7F-BCF0-4B87-B3DF-B7BDAC3110B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202F9E7F-BCF0-4B87-B3DF-B7BDAC3110B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202F9E7F-BCF0-4B87-B3DF-B7BDAC3110B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202F9E7F-BCF0-4B87-B3DF-B7BDAC3110B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE93840-FB24-43C8-99FA-DE38BF17893F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE93840-FB24-43C8-99FA-DE38BF17893F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE93840-FB24-43C8-99FA-DE38BF17893F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE93840-FB24-43C8-99FA-DE38BF17893F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18ADEBA8-A3D3-461F-9E9E-4912E65EFD0A} = {7051AE12-78C1-40FF-8EFF-4A99247CD11B}
+		{A10B35FE-AF35-4504-AE80-5B8A375B3295} = {7051AE12-78C1-40FF-8EFF-4A99247CD11B}
+		{4D5F9E3D-3313-426D-96D3-5B8733F9BEAF} = {7051AE12-78C1-40FF-8EFF-4A99247CD11B}
+		{202F9E7F-BCF0-4B87-B3DF-B7BDAC3110B3} = {0AD3C04B-F4DB-4B12-B6B9-B587ECC89CB9}
+		{EEE93840-FB24-43C8-99FA-DE38BF17893F} = {0AD3C04B-F4DB-4B12-B6B9-B587ECC89CB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31390EEC-2D18-4791-84F7-AEB9FCE4EF6D}

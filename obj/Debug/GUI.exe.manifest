@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="GUI.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="GUI.exe" version="1.0.0.11" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -361,7 +361,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ujwsoObngJHgPKpVPqv2xx10R4QZ9zp6QIATUZhsepE=</dsig:DigestValue>
+        <dsig:DigestValue>LOtxxd8HQpZC/14ZWFuVZDMSC7q0+Oa1antiReSNYF4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1764,6 +1764,240 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>QdR70rQTz8PylIGbq9VrIF6j1pvXHo5ckfn1B3KkxJk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\CallbackManager.h" size="10258">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cXWV8xX5lyxEFAD3unGgQZ5CBHuneQxR++o5YYGUprM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ConnectionNotifier.cpp" size="1160">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JuaoNs1ipGBMfKwSYzexBjNyvSnEjtdlJDzgSB88jNI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ConnectionNotifier.h" size="2206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZlYx7+vAOdHURnJDRnUT0IoWm7EkajsRS7YdooVhgAk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\Dispatcher.cpp" size="20763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KpB/1T3hGx/CyErKEHIVY+CUE1PK5SHDtktbk1U0/2Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\Dispatcher.h" size="4750">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JkwwrfN2joauAUWxHvYQPrTxZxA8nKHwp/WGas3xIJE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\DsClient.cpp" size="4450">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KJUlu/fM6QFIrfzOCzig9V99ak8UyPnPnWbbYN8qIig=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\DsClient.h" size="955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hrHz5/VcdpJ54AymWibHWlYViQ//wY0/PCuQHfoce7E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\edu_wpi_first_networktables_NetworkTablesJNI.h" size="26467">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j3mEqS88ryOneMHpZQQQOwIvi9KSW4oYVKqp4idIjRg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\EntryListenerFlags.h" size="2549">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pOndNJ7WKvX1JQbhzqX2oMiP66ZCKn6j2K6mN18KBNY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ITable.h" size="16276">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+J/yvzvGS148fBYVNG08/0Z6ZWdD8iREFkF/v98Lx9E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ITableListener.h" size="2318">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vBa3N/tv6vPfps67JgwVRdkuUQAMFcF2gcnwE55f98Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\NetworkTable.h" size="25220">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tCXi6OLy37bXOnznRr0ooAcYAPgXKpw7D6S1rvMl47w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\NetworkTableEntry.h" size="13461">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7PfWKiwKkIvkSFND+/DLfuBhzpjNx9rsiLb7mVPAuzM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\NetworkTableEntry.inl" size="7631">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vOhm4D9n0mqi0B37c9yBx3Dkiv5UdTWlA+Lkwh4to9w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\NetworkTableInstance.h" size="17138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+F2UwJoRv33DQVQsG0qzvdwgtW7j7/QyKfsmYW+5lDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\NetworkTableInstance.inl" size="6267">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y8m9pfPF0CwD5EiV9G8TiK4vG8juMOk5lUcQgYYXLNE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\NetworkTableType.h" size="1033">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FFpacRS4rMrwMyNrjfHRxLk30PDd1+L/uNQYNQt6uMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\NetworkTableValue.h" size="12318">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bnWf8dv8DjWwW7MGcImNO0NPjXa0z9nDv/B3vRo+tqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ntcore.h" size="684">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qxzqftW1vrK/zA8gSR/aFurtt+rSVN2A/QxYPefVtSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ntcore_c.h" size="69161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>L6oAhe/xwVhmqZWFWwpAUdEEr+xmM6rnzu8jDv6WjeY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ntcore_cpp.h" size="49069">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TIAW0xGIMoVhxEbzZA3/BHX3zEm6EMRA0SB8JO3B46s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\ntcore_test.h" size="4168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>day0dmbXoEEqHHPxRahonFitq9sOjzpxlnClpfl1OJg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\RpcCall.h" size="2762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/hHnmUjjNmcVca/FLx/FDCKSkZ6ecM/5z5fkK9J0pO8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\RpcCall.inl" size="1319">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JQ4IzAhBotsZVF21rIb/c9VPbx8U017g+gLdwNLTRrA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\TableEntryListener.h" size="1531">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BxmPBnPLJGQQeIr7j+J2O5lTHv5xITohuRP5AVV3+Cc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="include\TableListener.h" size="1187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dSuh11cy60bynWyi0ZZ+HxVJ/8K9plvBB95iXbZLor8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

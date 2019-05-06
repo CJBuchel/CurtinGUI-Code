@@ -353,5 +353,33 @@
   <ItemGroup>
     <None Include="Resources\woah.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="include\CallbackManager.h" />
+    <Content Include="include\ConnectionNotifier.cpp" />
+    <Content Include="include\ConnectionNotifier.h" />
+    <Content Include="include\Dispatcher.cpp" />
+    <Content Include="include\Dispatcher.h" />
+    <Content Include="include\DsClient.cpp" />
+    <Content Include="include\DsClient.h" />
+    <Content Include="include\edu_wpi_first_networktables_NetworkTablesJNI.h" />
+    <Content Include="include\EntryListenerFlags.h" />
+    <Content Include="include\ITable.h" />
+    <Content Include="include\ITableListener.h" />
+    <Content Include="include\NetworkTable.h" />
+    <Content Include="include\NetworkTableEntry.h" />
+    <Content Include="include\NetworkTableEntry.inl" />
+    <Content Include="include\NetworkTableInstance.h" />
+    <Content Include="include\NetworkTableInstance.inl" />
+    <Content Include="include\NetworkTableType.h" />
+    <Content Include="include\NetworkTableValue.h" />
+    <Content Include="include\ntcore.h" />
+    <Content Include="include\ntcore_c.h" />
+    <Content Include="include\ntcore_cpp.h" />
+    <Content Include="include\ntcore_test.h" />
+    <Content Include="include\RpcCall.h" />
+    <Content Include="include\RpcCall.inl" />
+    <Content Include="include\TableEntryListener.h" />
+    <Content Include="include\TableListener.h" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
