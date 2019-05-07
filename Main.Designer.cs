@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -48,12 +49,14 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuGauge1 = new Bunifu.Framework.UI.BunifuGauge();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuFlatButton1
@@ -97,7 +100,7 @@
             this.bunifuFlatButton2.BackColor = System.Drawing.Color.Cyan;
             this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "Interview Data";
+            this.bunifuFlatButton2.ButtonText = "Custom1 Full Screen";
             this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
@@ -120,7 +123,7 @@
             this.bunifuFlatButton2.selected = false;
             this.bunifuFlatButton2.Size = new System.Drawing.Size(241, 48);
             this.bunifuFlatButton2.TabIndex = 1;
-            this.bunifuFlatButton2.Text = "Interview Data";
+            this.bunifuFlatButton2.Text = "Custom1 Full Screen";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -132,7 +135,7 @@
             this.bunifuFlatButton3.BackColor = System.Drawing.Color.Cyan;
             this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "Interview Times";
+            this.bunifuFlatButton3.ButtonText = "Custom2 Full Screen";
             this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
@@ -155,7 +158,7 @@
             this.bunifuFlatButton3.selected = false;
             this.bunifuFlatButton3.Size = new System.Drawing.Size(241, 48);
             this.bunifuFlatButton3.TabIndex = 2;
-            this.bunifuFlatButton3.Text = "Interview Times";
+            this.bunifuFlatButton3.Text = "Custom2 Full Screen";
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -215,7 +218,7 @@
             this.bunifuFlatButton5.BackColor = System.Drawing.Color.Cyan;
             this.bunifuFlatButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton5.BorderRadius = 0;
-            this.bunifuFlatButton5.ButtonText = "Users";
+            this.bunifuFlatButton5.ButtonText = "Custom3 Full Screen";
             this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
@@ -238,7 +241,7 @@
             this.bunifuFlatButton5.selected = false;
             this.bunifuFlatButton5.Size = new System.Drawing.Size(241, 48);
             this.bunifuFlatButton5.TabIndex = 13;
-            this.bunifuFlatButton5.Text = "Users";
+            this.bunifuFlatButton5.Text = "Custom3 Full Screen";
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -449,6 +452,7 @@
             // 
             this.tabPage3.BackgroundImage = global::GUI.Properties.Resources.Entity101Main;
             this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage3.Controls.Add(this.bunifuGauge1);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -482,6 +486,22 @@
             this.bunifuCustomLabel2.TabIndex = 10;
             this.bunifuCustomLabel2.Text = "Data Viewer";
             // 
+            // bunifuGauge1
+            // 
+            this.bunifuGauge1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGauge1.BackgroundImage")));
+            this.bunifuGauge1.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuGauge1.Location = new System.Drawing.Point(39, 29);
+            this.bunifuGauge1.Margin = new System.Windows.Forms.Padding(6);
+            this.bunifuGauge1.Name = "bunifuGauge1";
+            this.bunifuGauge1.ProgressBgColor = System.Drawing.Color.Gray;
+            this.bunifuGauge1.ProgressColor1 = System.Drawing.Color.SeaGreen;
+            this.bunifuGauge1.ProgressColor2 = System.Drawing.Color.Tomato;
+            this.bunifuGauge1.Size = new System.Drawing.Size(174, 117);
+            this.bunifuGauge1.Suffix = "";
+            this.bunifuGauge1.TabIndex = 0;
+            this.bunifuGauge1.Thickness = 30;
+            this.bunifuGauge1.Value = 0;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -510,6 +530,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -537,5 +558,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private WindowsFormsControlLibrary1.BunifuCustomTextbox bunifuCustomTextbox1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
+        private Bunifu.Framework.UI.BunifuGauge bunifuGauge1;
     }
 }
