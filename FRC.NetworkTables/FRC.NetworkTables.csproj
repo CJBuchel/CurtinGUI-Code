@@ -36,4 +36,45 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.3' ">
     <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetDash.CameraViews">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\DotNetDash.CameraViews.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetDash.Core">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\DotNetDash.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FRC.NetworkTables">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\FRC.NetworkTables.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Coordination">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\Nito.AsyncEx.Coordination.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Tasks">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\Nito.AsyncEx.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.Collections.Deque">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\Nito.Collections.Deque.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.Disposables">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\Nito.Disposables.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Settings.AppSettings">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\Serilog.Settings.AppSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\..\..\..\..\Downloads\DotNetDash\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

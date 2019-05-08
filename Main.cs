@@ -39,6 +39,7 @@ namespace GUI
         {
             Bitmap lcl = (Bitmap)eventArgs.Frame.Clone();
             pictureBox2.Image = lcl;
+            pictureBox3.Image = lcl;
         }
 
         void curtinvision_NewFrame(object sender, NewFrameEventArgs eventArgs)
@@ -132,6 +133,11 @@ namespace GUI
         }
 
         private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuGauge1_Load(object sender, EventArgs e)
         {
 
         }

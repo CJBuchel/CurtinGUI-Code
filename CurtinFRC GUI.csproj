@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>D:\Users\Conno\Desktop\Code\CurtinGUI\CurtinGUI-Published\</PublishUrl>
+    <PublishUrl>D:\Users\Conno\Desktop\Code\CurtinGUI\stuff\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>https://github.com/CJBuchel/CurtinGUI/</UpdateUrl>
-    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationRevision>13</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -148,6 +148,13 @@
     </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>Resources\Bunifu\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetDash.CameraViews">
+      <HintPath>..\..\..\..\Downloads\DotNetDash\Plugins\CameraViews\DotNetDash.CameraViews.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetDash.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\DotNetDash\DotNetDash.Core.dll</HintPath>
     </Reference>
     <Reference Include="FRC.NetworkTables">
       <HintPath>..\..\ntdlls\FRC.NetworkTables.dll</HintPath>
@@ -380,6 +387,7 @@
     <Content Include="include\RpcCall.inl" />
     <Content Include="include\TableEntryListener.h" />
     <Content Include="include\TableListener.h" />
+    <None Include="Resources\2lLleKJ1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -254,3 +254,11 @@ D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\nunit.framework.dll
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\NUnit3.TestAdapter.dll
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.easteregg.resources
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Debug\GUI.EditData.resources
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\DotNetDash.CameraViews.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\DotNetDash.Core.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\Hellosam.Net.Collections.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\Serilog.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\DotNetDash.CameraViews.pdb
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\DotNetDash.Core.pdb
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\Hellosam.Net.Collections.pdb
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Debug\Serilog.xml

@@ -57,7 +57,6 @@ D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\MySQL.Data.EntityFramewor
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\MySql.Web.xml
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\CurtinFRC GUI.csprojAssemblyReference.cache
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\GUI.exe.config
-D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\GUI.AddData.resources
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\GUI.AddUser.resources
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\GUI.Login.resources
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\GUI.Main.resources
@@ -184,3 +183,12 @@ D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\nunit.engine.netstandard.
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\nunit.framework.dll
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\NUnit3.TestAdapter.dll
 D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\GUI.easteregg.resources
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\obj\Release\GUI.EditData.resources
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\DotNetDash.CameraViews.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\DotNetDash.Core.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\Hellosam.Net.Collections.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\Serilog.dll
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\DotNetDash.CameraViews.pdb
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\DotNetDash.Core.pdb
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\Hellosam.Net.Collections.pdb
+D:\Users\Conno\Desktop\Code\CurtinGUI\code\bin\Release\Serilog.xml
